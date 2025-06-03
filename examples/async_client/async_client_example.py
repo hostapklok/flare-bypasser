@@ -11,9 +11,9 @@ import flare_bypasser
 
 async def main(solver_url: str, proxy: str):
   async with flare_bypasser.AsyncClient(args.solver_url, proxy=proxy) as client:
-    resp1 = await client.get("https://torrentleech.pl/", follow_redirects=True)
+    resp1 = await client.get("https://google.pl/", follow_redirects=True)
     print("PAGE 1: status_code = " + str(resp1.status_code) + "\n>>>>>>\n" + resp1.text[:1000])
-    resp2 = await client.get("https://torrentleech.pl/faq.php")
+    resp2 = await client.get("https://google.pl/faq.php")
     print("PAGE 2: status_code = " + str(resp2.status_code) + "\n>>>>>>\n" + resp2.text[:1000])
 
 if __name__ == '__main__':
