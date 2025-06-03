@@ -51,18 +51,18 @@ else:
 }
 
 RES=0
-site_test 'https://torrentleech.pl/login.php?returnto=%2F' || export RES=1
+site_test 'https://mobilleech.pl/login.php?returnto=%2F' || export RES=1
 site_test 'https://xcv.ashoo.org/' || export RES=1
 site_test 'https://myg.ashoo.live/' || export RES=1
 site_test 'https://hdf3im.lordfilm1.pics/' || export RES=1
 site_test 'https://www.ygg.re' 'socks5://91.142.74.232:40001' || export RES=1
 site_test 'https://ext.to/latest/' 'socks5://91.142.74.232:40001' || export RES=1
 site_test 'https://prowlarr.servarr.com/v1/ping' 'socks5://91.142.74.232:40001' || export RES=1 # Expected blocked here.
-site_test 'https://extratorrent.st' 'socks5://91.142.74.232:40001' || export RES=1
+site_test 'https://extramobil.st' 'socks5://91.142.74.232:40001' || export RES=1
 site_test 'https://1337x.unblockninja.com/cat/Movies/time/desc/1/' 'socks5://91.142.74.232:40001' || export RES=1
 site_test 'https://solscan.io/' || export RES=1
 site_test 'https://www.ygg.re/engine/search?do=search&order=desc&sort=publish_date&category=al' || export RES=1
-site_test 'https://1337x.torrentbay.st/cat/Movies/time/desc/1/' 'socks5://91.142.74.232:40001' || export RES=1
+site_test 'https://1337x.mobilbay.st/cat/Movies/time/desc/1/' 'socks5://91.142.74.232:40001' || export RES=1
 site_test 'http://www.google.nl/' || export RES=1
 site_test 'https://www.topps.com/' || export RES=1
 site_test 'http://www.comando.la/' 'socks5://91.142.74.232:40001' || export RES=1
