@@ -10,9 +10,7 @@ uncomment in docker-compose.yml next lines :
 restart docker container, and /command/my-click will be available.
 
 ```
-curl -XPOST 'http://localhost:20080/command/my-click' \
-  -H 'Content-Type: application/json' \
-  --data-raw '{"maxTimeout": 60000, "url": "https://torrentleech.pl/login.php?returnto=%2F"}'
+
 ```
 
 Now you can pass your own extension (python module) to examples/custom_user_commands/ folder,
